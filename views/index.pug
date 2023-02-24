@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    meta(http-equiv='content-type', content='text/html; charset=utf-8')
+    title Short URL
+    style
+      include style.css
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(rel='shortcut icon', href='https://e7.pngegg.com/pngimages/311/627/png-clipart-computer-icons-hyperlink-favicon-url-shortening-hyperlink-icon-angle-text.png', type='image/png')
+  body
+    section#nav
+      nav.navbar
+        .logo Url Shortner
+    form#content(action="/short" method="post")
+      .head Link Short
+      .input-box
+        input#url(type='url', name='url', value='', placeholder='Enter Your Long Url')
+        button#btn(type="submit") #{content}
+    
