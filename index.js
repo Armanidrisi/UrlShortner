@@ -15,7 +15,7 @@ app.set('view engine','pug');
 app.set('views',path.join(__dirname,'views'));
 //Database Connection 
 mongoose.set('strictQuery',0);
-mongoose.connect('mongodb+srv://Arman:Arman@cluster0.kmyozhq.mongodb.net/?retryWrites=true&w=majority');
+mongoose.connect('http://localhost:27017/urlshort');
 const db= mongoose.connection;
 db.on('error',console.log.bind(console, "connection error"));
 db.once('open',function(callback){
