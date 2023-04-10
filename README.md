@@ -18,7 +18,7 @@ To install and use the app, follow these steps:
 
 1. Clone the repository to your local machine.
 2. Install the required dependencies using `npm install`.
-3. Create a `.env` file and add your MongoDB connection URI as `MONGODB_URI`.
+3. Change The database details on `index.js`.
 4. Run the app using `npm start`.
 5. Open your web browser and go to `http://localhost:3000`.
 
