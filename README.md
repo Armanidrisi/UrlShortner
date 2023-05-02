@@ -1,10 +1,8 @@
 # 🔗 URL Shortener
 
 ![GitHub](https://img.shields.io/github/license/Armanidrisi/UrlShortner)
-![GitHub language count](https://img.shields.io/github/languages/count/Armanidrisi/UrlShortner)
-![GitHub top language](https://img.shields.io/github/languages/top/Armanidrisi/UrlShortner)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Armanidrisi/UrlShortner)
-![Node.js CI](https://github.com/Armanidrisi/UrlShortner/workflows/Node.js%20CI/badge.svg)
+
 
 This is a URL Shortener web application created using Node.js, Express, MongoDB, and Mongoose. The app allows users to create shortened links for long URLs and use them in their projects.
 
@@ -28,10 +26,10 @@ To create a shortened link, enter the original URL in the input field and click 
 
 The URL Shortener was created using the following languages/frameworks:
 
-![Node.js](https://img.shields.io/badge/Node.js-14.x-blue)
+![Node.js](https://img.shields.io/badge/Node.js-19.x-blue)
 ![Express.js](https://img.shields.io/badge/Express.js-4.x-blue)
-![MongoDB](https://img.shields.io/badge/MongoDB-4.x-blue)
-![Mongoose](https://img.shields.io/badge/Mongoose-5.x-blue)
+![MongoDB](https://img.shields.io/badge/MongoDB-5.x-blue)
+![Mongoose](https://img.shields.io/badge/Mongoose-6.x-blue)
 
 ## 👤 Author
 
